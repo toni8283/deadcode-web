@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: deadcode-web
+    runtime: docker
+    plan: free
+    region: oregon
+    branch: main
+    envVars:
+      - key: PORT
+        value: 10000

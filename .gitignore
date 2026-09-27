@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Node dependencies & local builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Sessions and temporary test directories
+backend/sessions/
+*.log
+
+# DeadCode runtime state
+.deadcode/
+.DS_Store
